@@ -52,9 +52,6 @@ A comprehensive & curated liist of Mobile Manipulators related researches, start
 | Isaac Sim | Based on NVidia's Omniverse | https://developer.nvidia.com/isaac/sim |
 | Gazebo | Most common ROS operated Simulator with rich communities | https://gazebosim.org/home |
 | Mujoco | Open Source Physics Simulations | https://mujoco.org/ |
-
-## Research
-
 | Copper Robotics | Rust First | https://www.copper-robotics.com/ |
 | Duality AI | Digital Twin on Unreal Engine | https://www.duality.ai/ |
 | Habitat Sim | Meta's 3D Simulator for RL Challenges (Not active since 2023) | https://aihabitat.org/ |
@@ -62,3 +59,7 @@ A comprehensive & curated liist of Mobile Manipulators related researches, start
 | RoboSuite | A Modular Simulation Framework - Based on Mujoco, Research use, Support TeleOp | https://robosuite.ai/ | 
 | iGibson | 3D Realistic Scenes for Robot Learning | https://svl.stanford.edu/igibson/ |
 | PyBullet | Basic Physics Simulator for RL and Robotics | https://pybullet.org/ |
+
+## Research
+| Name | Description | Website |
+| --------| --------------------------- | ---------------------- |
