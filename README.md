@@ -8,10 +8,8 @@ A comprehensive & curated liist of Mobile Manipulators related researches, start
   - [Shops](#shops)
   - [Simulators](#simulators)
 - [Research](#research)
-- [Visions]
-- [Navigations]
-- [Motion Planning]
-- [Incubators & Investers]
+  - [Manipulation](#manipulation)
+  - [Navigations](#navigation)
 
 ## Applications
 ### Startups
@@ -52,7 +50,7 @@ A comprehensive & curated liist of Mobile Manipulators related researches, start
 | Isaac Sim | Based on NVidia's Omniverse | https://developer.nvidia.com/isaac/sim |
 | Gazebo | Most common ROS operated Simulator with rich communities | https://gazebosim.org/home |
 | Mujoco | Open Source Physics Simulations | https://mujoco.org/ |
-| Copper Robotics | Rust First | https://www.copper-robotics.com/ |
+| Copper Robotics | Rust First Framework | https://www.copper-robotics.com/ |
 | Duality AI | Digital Twin on Unreal Engine | https://www.duality.ai/ |
 | Habitat Sim | Meta's 3D Simulator for RL Challenges (Not active since 2023) | https://aihabitat.org/ |
 | Coppelia | Factory Automation Simulations | https://www.coppeliarobotics.com/ |
@@ -61,5 +59,15 @@ A comprehensive & curated liist of Mobile Manipulators related researches, start
 | PyBullet | Basic Physics Simulator for RL and Robotics | https://pybullet.org/ |
 
 ## Research
-| Name | Description | Website |
-| --------| --------------------------- | ---------------------- |
+### Manipulation
+| Name | Publiction | Description | Website |
+| --------| --------------------------- | ----------------------- |
+| π0.5 | April, 2025 | Based on π0, separate high and low level inference for commands and actions | [https://www.physicalintelligence.company/blog/pi0](https://www.physicalintelligence.company/blog/pi05) |
+| π0 (pi-zero) | [Oct, 2024](https://github.com/Physical-Intelligence/openpi) | Foundation Model for complex manipulation across various robots with **VLM (Vision-Language Model)** | https://www.physicalintelligence.company/blog/pi0 |
+
+### Navigation
+| Name | Publiction | Description | Website |
+| --------| --------------------------- | ---------------------- | ------------ |
+| NoMaD: Goal Masking Diffusion Policies for Navigation and Exploration | ICRA 2024 | Based on ViNT (below), using **unified diffusion policy** to generate actions and adding exploration | https://general-navigation-models.github.io/nomad/ |
+| ViNT (Visual Navigation Transformer) | CoRL 2023 | Based on GNM (below), has higher capacity with subgoal generation with EfficientNet (as visual encoder in Transformer) | https://general-navigation-models.github.io/vint/ |
+| GNM: A General Navigation Model to Drive Any Robot | ICRA 2023 | Robots and Environments Agnostic Navigation Model, with Transformer-based policy | https://sites.google.com/view/drive-any-robot |
