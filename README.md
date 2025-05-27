@@ -1,11 +1,11 @@
-# Mobile Manipulator Robots: From Research To Applications
+# Awesome Mobile Manipulator Robots: From Research To Applications [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 A comprehensive & curated liist of Mobile Manipulators related researches, startups and projects
 
 ## Table of Contents
 
 - [Research](#research)
   - [Manipulation](#manipulation)
-  - [Navigations](#navigation)
+  - [Navigation](#navigation)
 - [Applications](#applications)
   - [Startups](#startups)
   - [Shops](#shops)
@@ -14,13 +14,13 @@ A comprehensive & curated liist of Mobile Manipulators related researches, start
 
 ## Research
 ### Manipulation
-| Name | Publiction | Description | Website |
+| Name | Publication | Description | Website | 
 | --------| --------------------------- | --------------- |---------------- |
-| π0.5 | April, 2025 | Based on π0, separate high and low level inference for commands and actions | [https://www.physicalintelligence.company/blog/pi0](https://www.physicalintelligence.company/blog/pi05) |
-| π0 (pi-zero) | Oct, 2024 | Foundation Model for complex manipulation across various robots with **VLM (Vision-Language Model)** | https://www.physicalintelligence.company/blog/pi0, https://github.com/Physical-Intelligence/openpi |
+| π0.5 | April, 2025 | Based on π0 (below), separate high and low level inference for commands and actions | https://www.physicalintelligence.company/blog/pi05 | 
+| π0 (pi-zero) | Oct, 2024 | Foundation Model for complex manipulation across various robots with **VLM (Vision-Language Model)** | https://www.physicalintelligence.company/blog/pi0 |
 
 ### Navigation
-| Name | Publiction | Description | Website |
+| Name | Publication | Description | Website |
 | ----------| --------------------------- | ------------------------- | -------------- |
 | NoMaD: Goal Masking Diffusion Policies for Navigation and Exploration | ICRA 2024 | Based on ViNT (below), using **unified diffusion policy** to generate actions and adding exploration | https://general-navigation-models.github.io/nomad/ |
 | ViNT (Visual Navigation Transformer) | CoRL 2023 | Based on GNM (below), has higher capacity with subgoal generation with EfficientNet (as visual encoder in Transformer) | https://general-navigation-models.github.io/vint/ |
