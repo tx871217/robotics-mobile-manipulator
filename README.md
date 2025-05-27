@@ -61,7 +61,7 @@ A comprehensive & curated liist of Mobile Manipulators related researches, start
 ## Research
 ### Manipulation
 | Name | Publiction | Description | Website |
-| --------| --------------------------- | ----------------------- |
+| --------| --------------------------- | --------- |-------------- |
 | π0.5 | April, 2025 | Based on π0, separate high and low level inference for commands and actions | [https://www.physicalintelligence.company/blog/pi0](https://www.physicalintelligence.company/blog/pi05) |
 | π0 (pi-zero) | [Oct, 2024](https://github.com/Physical-Intelligence/openpi) | Foundation Model for complex manipulation across various robots with **VLM (Vision-Language Model)** | https://www.physicalintelligence.company/blog/pi0 |
 
