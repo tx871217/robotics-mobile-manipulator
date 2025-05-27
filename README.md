@@ -3,13 +3,28 @@ A comprehensive & curated liist of Mobile Manipulators related researches, start
 
 ## Table of Contents
 
+- [Research](#research)
+  - [Manipulation](#manipulation)
+  - [Navigations](#navigation)
 - [Applications](#applications)
   - [Startups](#startups)
   - [Shops](#shops)
   - [Simulators](#simulators)
-- [Research](#research)
-  - [Manipulation](#manipulation)
-  - [Navigations](#navigation)
+
+
+## Research
+### Manipulation
+| Name | Publiction | Description | Website |
+| --------| --------------------------- | --------------- |---------------- |
+| π0.5 | April, 2025 | Based on π0, separate high and low level inference for commands and actions | [https://www.physicalintelligence.company/blog/pi0](https://www.physicalintelligence.company/blog/pi05) |
+| π0 (pi-zero) | Oct, 2024 | Foundation Model for complex manipulation across various robots with **VLM (Vision-Language Model)** | https://www.physicalintelligence.company/blog/pi0, https://github.com/Physical-Intelligence/openpi |
+
+### Navigation
+| Name | Publiction | Description | Website |
+| ----------| --------------------------- | ------------------------- | -------------- |
+| NoMaD: Goal Masking Diffusion Policies for Navigation and Exploration | ICRA 2024 | Based on ViNT (below), using **unified diffusion policy** to generate actions and adding exploration | https://general-navigation-models.github.io/nomad/ |
+| ViNT (Visual Navigation Transformer) | CoRL 2023 | Based on GNM (below), has higher capacity with subgoal generation with EfficientNet (as visual encoder in Transformer) | https://general-navigation-models.github.io/vint/ |
+| GNM: A General Navigation Model to Drive Any Robot | ICRA 2023 | Robots and Environments Agnostic Navigation Model, with Transformer-based policy | https://sites.google.com/view/drive-any-robot |
 
 ## Applications
 ### Startups
@@ -57,17 +72,3 @@ A comprehensive & curated liist of Mobile Manipulators related researches, start
 | RoboSuite | A Modular Simulation Framework - Based on Mujoco, Research use, Support TeleOp | https://robosuite.ai/ | 
 | iGibson | 3D Realistic Scenes for Robot Learning | https://svl.stanford.edu/igibson/ |
 | PyBullet | Basic Physics Simulator for RL and Robotics | https://pybullet.org/ |
-
-## Research
-### Manipulation
-| Name | Publiction | Description | Website |
-| --------| --------------------------- | --------- |-------------- |
-| π0.5 | April, 2025 | Based on π0, separate high and low level inference for commands and actions | [https://www.physicalintelligence.company/blog/pi0](https://www.physicalintelligence.company/blog/pi05) |
-| π0 (pi-zero) | [Oct, 2024](https://github.com/Physical-Intelligence/openpi) | Foundation Model for complex manipulation across various robots with **VLM (Vision-Language Model)** | https://www.physicalintelligence.company/blog/pi0 |
-
-### Navigation
-| Name | Publiction | Description | Website |
-| --------| --------------------------- | ---------------------- | ------------ |
-| NoMaD: Goal Masking Diffusion Policies for Navigation and Exploration | ICRA 2024 | Based on ViNT (below), using **unified diffusion policy** to generate actions and adding exploration | https://general-navigation-models.github.io/nomad/ |
-| ViNT (Visual Navigation Transformer) | CoRL 2023 | Based on GNM (below), has higher capacity with subgoal generation with EfficientNet (as visual encoder in Transformer) | https://general-navigation-models.github.io/vint/ |
-| GNM: A General Navigation Model to Drive Any Robot | ICRA 2023 | Robots and Environments Agnostic Navigation Model, with Transformer-based policy | https://sites.google.com/view/drive-any-robot |
